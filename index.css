@@ -189,7 +189,7 @@ form button:hover {
   }
 
   .found img {
-    height: 20vh;
+    width: 100%;
   }
 
   .srch11 button {
@@ -204,6 +204,109 @@ form button:hover {
     display: flex;
     border-radius: 1rem;
     width: 30%;
+  }
+
+  .detail img {
+    width: 100%;
+    border-radius: 2rem;
+  }
+
+  .allUser {
+    display: flex;
+    gap: 1rem;
+  }
+  .inside a button {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+  }
+
+  .inside span {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width:767px) {
+  /* For searching user */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .found {
+    width: 40%;
+  }
+
+  .found img {
+    width: 100%;
+    border-radius: 2rem;
+  }
+
+  .srch11 button {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+  }
+
+  /* For 30 default profiles */
+
+  .detail {
+    padding: 1rem;
+    display: flex;
+    border-radius: 1rem;
+    width: 20%;
+  }
+
+  .detail img {
+    width: 100%;
+    border-radius: 2rem;
+  }
+
+  .allUser {
+    display: flex;
+    gap: 1rem;
+  }
+  .inside a button {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+  }
+
+  .inside span {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width:991px) {
+  /* For searching user */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .found {
+    width: 40%;
+  }
+
+  .found img {
+    width: 100%;
+    border-radius: 2rem;
+  }
+
+  .srch11 button {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+  }
+
+  /* For 30 default profiles */
+
+  .detail {
+    padding: 1rem;
+    display: flex;
+    border-radius: 1rem;
+    width: 18%;
   }
 
   .detail img {
